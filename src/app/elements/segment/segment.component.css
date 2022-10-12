@@ -1,0 +1,4 @@
+div.ui.icon.header:empty  {
+    /* id this header is empty then dont display */
+    display: none;
+}

@@ -1,0 +1,12 @@
+.action:empty {
+    /* action class having no cl=hild element */
+    display: none;
+}
+
+.action-default {
+    display: none;
+}
+
+.action:empty + .action-default {
+    display: block;
+}

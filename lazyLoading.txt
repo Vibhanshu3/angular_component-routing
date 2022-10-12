@@ -1,0 +1,20 @@
+1. First when user hits root page '/'
+
+2. then angular dev server response with all code 
+and sends down all the modules it needs.
+
+3. But all the comp are not needed initially
+
+4. so, alternatively angular dev server sends only APP
+MODULE and will see the landing page.
+
+And if users clicks on some link, then web pg asks for 
+that specific module and then server response with that
+specific module.
+
+Implementation:
+1. select module to be not loaded up.
+2. remove import statement for these modules.
+3. in appRoutingModule, define route obj and define rule to decide 
+when we want to load that module.
+4. 
